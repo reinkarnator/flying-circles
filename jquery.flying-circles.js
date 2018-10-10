@@ -14,7 +14,7 @@ var Dots = (function() {
 
     var generate = function ( params ) {
 
-    	//params = params || {};
+    	params = params || {};
 
     	options = $.extend(options, params);
 
